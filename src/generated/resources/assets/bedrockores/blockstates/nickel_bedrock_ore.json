@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bedrockores:block/nickel_bedrock_ore"
+    }
+  }
+}

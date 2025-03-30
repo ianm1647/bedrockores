@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bedrockores:block/experience_bedrock_ore"
+    }
+  }
+}

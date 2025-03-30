@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bedrockores:block/silver_bedrock_ore"
+    }
+  }
+}

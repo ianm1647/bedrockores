@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bedrockores:block/uranium_bedrock_ore"
+    }
+  }
+}

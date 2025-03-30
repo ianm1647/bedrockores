@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bedrockores:block/empty_bedrock_ore"
+    }
+  }
+}

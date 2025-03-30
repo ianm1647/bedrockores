@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bedrockores:block/aluminum_bedrock_ore"
+    }
+  }
+}

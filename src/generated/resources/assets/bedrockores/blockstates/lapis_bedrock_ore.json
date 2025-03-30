@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bedrockores:block/lapis_bedrock_ore"
+    }
+  }
+}

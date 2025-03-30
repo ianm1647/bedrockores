@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bedrockores:block/tin_bedrock_ore"
+    }
+  }
+}

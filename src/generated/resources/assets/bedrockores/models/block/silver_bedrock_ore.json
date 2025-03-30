@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "bedrockores:block/silver_bedrock_ore"
+  }
+}

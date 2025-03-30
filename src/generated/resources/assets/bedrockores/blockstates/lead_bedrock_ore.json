@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bedrockores:block/lead_bedrock_ore"
+    }
+  }
+}

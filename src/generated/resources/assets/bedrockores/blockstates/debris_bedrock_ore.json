@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bedrockores:block/debris_bedrock_ore"
+    }
+  }
+}

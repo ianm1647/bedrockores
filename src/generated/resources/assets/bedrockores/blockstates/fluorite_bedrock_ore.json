@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bedrockores:block/fluorite_bedrock_ore"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bedrockores:block/copper_bedrock_ore"
+    }
+  }
+}

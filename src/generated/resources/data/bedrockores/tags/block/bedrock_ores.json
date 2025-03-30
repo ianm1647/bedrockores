@@ -1,0 +1,26 @@
+{
+  "values": [
+    "bedrockores:empty_bedrock_ore",
+    "bedrockores:coal_bedrock_ore",
+    "bedrockores:copper_bedrock_ore",
+    "bedrockores:iron_bedrock_ore",
+    "bedrockores:gold_bedrock_ore",
+    "bedrockores:redstone_bedrock_ore",
+    "bedrockores:lapis_bedrock_ore",
+    "bedrockores:diamond_bedrock_ore",
+    "bedrockores:emerald_bedrock_ore",
+    "bedrockores:experience_bedrock_ore",
+    "bedrockores:lava_bedrock_ore",
+    "bedrockores:quartz_bedrock_ore",
+    "bedrockores:debris_bedrock_ore",
+    "bedrockores:osmium_bedrock_ore",
+    "bedrockores:aluminum_bedrock_ore",
+    "bedrockores:lead_bedrock_ore",
+    "bedrockores:nickel_bedrock_ore",
+    "bedrockores:uranium_bedrock_ore",
+    "bedrockores:fluorite_bedrock_ore",
+    "bedrockores:silver_bedrock_ore",
+    "bedrockores:tin_bedrock_ore",
+    "bedrockores:zinc_bedrock_ore"
+  ]
+}

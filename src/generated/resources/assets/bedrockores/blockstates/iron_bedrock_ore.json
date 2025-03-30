@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bedrockores:block/iron_bedrock_ore"
+    }
+  }
+}

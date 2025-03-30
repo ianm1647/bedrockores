@@ -1,0 +1,14 @@
+// 1.21.1	2025-03-24T16:51:26.6853635	Tags for minecraft:item mod id bedrockores
+b71a0c5b074cf74810723a91895f2bf6ef48f33d data/bedrockores/tags/item/bedrock_cores.json
+0850ba2c9d8b6a55c54dbff141b857329007fe13 data/bedrockores/tags/item/bedrock_ores.json
+a102816f072b82dd5e9a67c810e1ebfd58720e16 data/bedrockores/tags/item/valid_bedrock_ore_tools.json
+aa41a85947bf80eec5d408cbe35e2e26bf719c15 data/c/tags/item/ores/coal.json
+b7587ed8e6e3db460675a766b01e300f95cc85ff data/c/tags/item/ores/copper.json
+77d3d9661ac24372405687e008f308c6b34d1eff data/c/tags/item/ores/diamond.json
+7820d3326bed2985878a8d19fac589c1f686d4fb data/c/tags/item/ores/emerald.json
+37d0067e1e6b66f3e64ca3915fb701fcd3acd51e data/c/tags/item/ores/gold.json
+302789b906039b09d5343e958ece60ed98e22562 data/c/tags/item/ores/iron.json
+32c64fdbfa53371bb8d8544834ecb04b855bbd8a data/c/tags/item/ores/lapis.json
+750509e5a14d6c9dc8787e5cdfa01724010d9d60 data/c/tags/item/ores/netherite_scrap.json
+76417207df6b2eca2a401866ddd9d294af6b9b73 data/c/tags/item/ores/quartz.json
+f16ae8fd607a6dba788212ebeba718ca3d8b7199 data/c/tags/item/ores/redstone.json

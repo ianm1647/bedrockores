@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bedrockores:block/lava_bedrock_ore"
+    }
+  }
+}
