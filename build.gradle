@@ -28,6 +28,8 @@ dependencies {
 
     implementation "curse.maven:flatbedrock-398623:5443976"
     implementation "snownee.jade:Jade-NeoForge:${minecraft_version}-${jade_version}"
+
+    implementation "curse.maven:just-dire-things-1002348:6369120"
 }
 
 base {
