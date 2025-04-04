@@ -11,7 +11,7 @@ authors="${mod_authors}"
 description='''${mod_description}'''
 
 [[mixins]]
-config = "bedrockores-justdirethings.mixins.json"
+config = "bedrockores-compat.mixins.json"
 
 [[dependencies.${mod_id}]]
     modId="neoforge"

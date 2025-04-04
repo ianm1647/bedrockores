@@ -30,6 +30,8 @@ dependencies {
     implementation "snownee.jade:Jade-NeoForge:${minecraft_version}-${jade_version}"
 
     implementation "curse.maven:just-dire-things-1002348:6369120"
+    implementation "curse.maven:titanium-287342:6337206"
+    implementation "curse.maven:industrial-foregoing-266515:6283758"
 }
 
 base {

@@ -1,9 +1,10 @@
 {
   "required": true,
-  "package": "ianm1647.bedrockores.integration.justdirethings",
+  "package": "ianm1647.bedrockores.integration",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "BlockBreakerMixin"
+    "justdirethings.BlockBreakerMixin",
+    "industrialforegoing.BlockBreakerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
