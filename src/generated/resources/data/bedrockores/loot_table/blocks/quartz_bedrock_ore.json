@@ -36,7 +36,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "c:gems/quartz"
+              "name": "bedrockores:nether_quartz"
             }
           ]
         }

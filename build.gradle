@@ -32,6 +32,8 @@ dependencies {
     implementation "curse.maven:just-dire-things-1002348:6369120"
     implementation "curse.maven:titanium-287342:6337206"
     implementation "curse.maven:industrial-foregoing-266515:6283758"
+    implementation "curse.maven:guideme-1173950:6396436"
+    implementation "curse.maven:applied-energistics-2-223794:6399563"
 }
 
 base {

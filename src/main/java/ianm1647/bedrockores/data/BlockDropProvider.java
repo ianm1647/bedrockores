@@ -3,6 +3,7 @@ package ianm1647.bedrockores.data;
 import ianm1647.bedrockores.common.registry.ModBlocks;
 import ianm1647.bedrockores.common.registry.ModItems;
 import ianm1647.bedrockores.common.tag.CommonTags;
+import ianm1647.bedrockores.common.tag.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.loot.BlockLootSubProvider;
@@ -13,6 +14,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
@@ -49,7 +51,7 @@ public class BlockDropProvider extends BlockLootSubProvider {
         this.dropSilkTouchTagWithCount(ModBlocks.LAPIS_BEDROCK_ORE.get(), ModItems.LAPIS_BEDROCK_CORE.get(), Tags.Items.GEMS_LAPIS, 4, 8);
         this.dropSilkTouchTag(ModBlocks.DIAMOND_BEDROCK_ORE.get(), ModItems.DIAMOND_BEDROCK_CORE.get(), Tags.Items.GEMS_DIAMOND);
         this.dropSilkTouchTag(ModBlocks.EMERALD_BEDROCK_ORE.get(), ModItems.EMERALD_BEDROCK_CORE.get(), Tags.Items.GEMS_EMERALD);
-        this.dropSilkTouchTag(ModBlocks.QUARTZ_BEDROCK_ORE.get(), ModItems.QUARTZ_BEDROCK_CORE.get(), Tags.Items.GEMS_QUARTZ);
+        this.dropSilkTouchTag(ModBlocks.QUARTZ_BEDROCK_ORE.get(), ModItems.QUARTZ_BEDROCK_CORE.get(), ModTags.Items.NETHER_QUARTZ);
         this.dropSilkTouchTag(ModBlocks.DEBRIS_BEDROCK_ORE.get(), ModItems.DEBRIS_BEDROCK_CORE.get(), Tags.Items.ORES_NETHERITE_SCRAP);
 
         this.dropSilkTouchTag(ModBlocks.OSMIUM_BEDROCK_ORE.get(), ModItems.OSMIUM_BEDROCK_CORE.get(), CommonTags.Items.OSMIUM_RAW);

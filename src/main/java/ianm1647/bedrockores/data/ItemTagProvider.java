@@ -30,6 +30,8 @@ public class ItemTagProvider extends ItemTagsProvider {
                 Items.NETHERITE_PICKAXE
         );
 
+        tag(ModTags.Items.NETHER_QUARTZ).add(Items.QUARTZ);
+
         tag(ModTags.Items.BEDROCK_ORES).add(
                 ModItems.EMPTY_BEDROCK_ORE.get(),
                 ModItems.COAL_BEDROCK_ORE.get(),
@@ -92,6 +94,5 @@ public class ItemTagProvider extends ItemTagsProvider {
         tag(Tags.Items.ORES_DIAMOND).add(ModItems.DIAMOND_BEDROCK_ORE.get());
         tag(Tags.Items.ORES_EMERALD).add(ModItems.EMERALD_BEDROCK_ORE.get());
         tag(Tags.Items.ORES_QUARTZ).add(ModItems.QUARTZ_BEDROCK_ORE.get());
-        tag(Tags.Items.ORES_NETHERITE_SCRAP).add(ModItems.DEBRIS_BEDROCK_ORE.get());
     }
 }

@@ -10,6 +10,8 @@ import com.buuz135.industrial.utils.BlockUtils;
 import com.hrznstudio.titanium.component.inventory.SidedInventoryComponent;
 import ianm1647.bedrockores.common.block.BedrockOreBlock;
 import net.minecraft.core.BlockPos;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
@@ -35,25 +37,24 @@ public abstract class BlockBreakerMixin extends IndustrialAreaWorkingTile<BlockB
 
     @Inject(method = "work", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/level/block/state/BlockState;getDestroySpeed(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)F", shift = At.Shift.AFTER), cancellable = true)
     public void work(CallbackInfoReturnable<IndustrialWorkingTile<BlockBreakerTile>.WorkAction> cir) {
-        if (this.hasEnergy(this.getPowerPerOperation)) {
-            BlockPos pos = this.getPointedBlockPos();
-            BlockState state = this.level.getBlockState(pos);
-            Block block = state.getBlock();
-            if (block instanceof BedrockOreBlock ore) {
-                Iterator var3 = BlockUtils.getBlockDrops(this.level, pos).iterator();
+        BlockPos pos = this.getPointedBlockPos();
+        BlockState state = this.level.getBlockState(pos);
+        Block block = state.getBlock();
+        if (block instanceof BedrockOreBlock ore) {
+            Iterator var3 = BlockUtils.getBlockDrops(this.level, pos).iterator();
 
-                while(var3.hasNext()) {
-                    ItemStack blockDrop = (ItemStack)var3.next();
-                    ItemStack result = ItemHandlerHelper.insertItem(this.output, blockDrop, false);
-                    if (!result.isEmpty()) {
-                        BlockUtils.spawnItemStack(result, this.level, pos);
-                    }
+            while(var3.hasNext()) {
+                ItemStack blockDrop = (ItemStack)var3.next();
+                ItemStack result = ItemHandlerHelper.insertItem(this.output, blockDrop, false);
+                if (!result.isEmpty()) {
+                    BlockUtils.spawnItemStack(result, this.level, pos);
                 }
-
-                this.level.setBlockAndUpdate(pos, ore.defaultBlockState());
-                this.increasePointer();
-                cir.setReturnValue(new WorkAction( 1, this.getPowerPerOperation));
             }
+
+            this.level.setBlockAndUpdate(pos, ore.defaultBlockState());
+            this.level.playSound(null, pos, SoundEvents.STONE_BREAK, SoundSource.BLOCKS, 1.0f, 1.0f);
+            this.increasePointer();
+            cir.setReturnValue(new WorkAction( 1, this.getPowerPerOperation));
         }
     }
 }

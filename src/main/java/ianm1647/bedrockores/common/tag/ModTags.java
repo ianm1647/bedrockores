@@ -26,6 +26,8 @@ public class ModTags {
 
         public static final TagKey<Item> VALID_BEDROCK_ORE_TOOLS = itemTag("valid_bedrock_ore_tools");
 
+        public static final TagKey<Item> NETHER_QUARTZ = itemTag("nether_quartz");
+
         private static TagKey<Item> itemTag(String path) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath("bedrockores", path));
         }

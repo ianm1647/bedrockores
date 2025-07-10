@@ -1,4 +1,4 @@
-// 1.21.1	2025-03-24T16:51:26.6868635	Loot Tables
+// 1.21.1	2025-07-09T19:22:06.1430307	Loot Tables
 ae06401b2e05d3587da332ba539d38629b6a744b data/bedrockores/loot_table/blocks/aluminum_bedrock_ore.json
 241495e1e7beee6d206f7965cf1eb751c493428d data/bedrockores/loot_table/blocks/coal_bedrock_ore.json
 b0678da9f4d709bda0dd1163cec7941436667771 data/bedrockores/loot_table/blocks/copper_bedrock_ore.json
@@ -15,7 +15,7 @@ a1186df155124f9c6beabb97e2408599c18352f2 data/bedrockores/loot_table/blocks/lava
 275fedb2d7a407135470d44807d9273c6e048138 data/bedrockores/loot_table/blocks/lead_bedrock_ore.json
 345c45108f86f0db1461787ee7a4a921f1935660 data/bedrockores/loot_table/blocks/nickel_bedrock_ore.json
 1804b93b44799b23e169217970517cb9cda8f232 data/bedrockores/loot_table/blocks/osmium_bedrock_ore.json
-c3f8602736b059637c5853dfe23dde9c0b9d13dd data/bedrockores/loot_table/blocks/quartz_bedrock_ore.json
+9f51ece66143e9f845b951af7029e61ee14fc965 data/bedrockores/loot_table/blocks/quartz_bedrock_ore.json
 a5e835f3095ef99ff4247671f1431a92d02e0ac8 data/bedrockores/loot_table/blocks/redstone_bedrock_ore.json
 b06e898dc37a25feb75055267999b90fb520f86f data/bedrockores/loot_table/blocks/silver_bedrock_ore.json
 5bbca74068b1ae822d06b3f896f4a8e94689c6c4 data/bedrockores/loot_table/blocks/tin_bedrock_ore.json
