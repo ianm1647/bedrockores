@@ -3,6 +3,7 @@
   "package": "ianm1647.bedrockores.integration",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "create.BlockBreakingKineticBlockEntityMixin",
     "industrialforegoing.BlockBreakerMixin",
     "justdirethings.BlockBreakerMixin"
   ],
