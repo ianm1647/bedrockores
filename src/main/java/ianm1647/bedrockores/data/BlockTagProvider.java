@@ -59,7 +59,6 @@ public class BlockTagProvider extends BlockTagsProvider {
 
     protected void registerNeoTags() {
         tag(Tags.Blocks.RELOCATION_NOT_SUPPORTED).addTag(ModTags.Blocks.BEDROCK_ORES);
-        tag(Tags.Blocks.NEEDS_NETHERITE_TOOL).addTag(ModTags.Blocks.BEDROCK_ORES);
         tag(Tags.Blocks.ORES_COAL).add(ModBlocks.COAL_BEDROCK_ORE.get());
         tag(Tags.Blocks.ORES_COPPER).add(ModBlocks.COPPER_BEDROCK_ORE.get());
         tag(Tags.Blocks.ORES_IRON).add(ModBlocks.IRON_BEDROCK_ORE.get());

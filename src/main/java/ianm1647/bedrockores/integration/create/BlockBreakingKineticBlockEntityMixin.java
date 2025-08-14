@@ -3,7 +3,9 @@ package ianm1647.bedrockores.integration.create;
 import com.simibubi.create.content.kinetics.base.BlockBreakingKineticBlockEntity;
 import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
 import ianm1647.bedrockores.common.block.BedrockOreBlock;
+import ianm1647.bedrockores.common.registry.ModBlocks;
 import net.minecraft.core.BlockPos;
+import net.minecraft.world.entity.ExperienceOrb;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import org.spongepowered.asm.mixin.Mixin;
@@ -34,6 +36,9 @@ public abstract class BlockBreakingKineticBlockEntityMixin extends KineticBlockE
         breakingPos = getBreakingPos();
         BlockState stateToBreak = level.getBlockState(breakingPos);
         if (this.destroyProgress >= 10 && stateToBreak.getBlock() instanceof BedrockOreBlock block) {
+            if (block == ModBlocks.EXPERIENCE_BEDROCK_ORE.get()) {
+                level.addFreshEntity(new ExperienceOrb(level, breakingPos.getX(), breakingPos.getY(), breakingPos.getZ(), 100));
+            }
             onBlockBroken(stateToBreak);
             destroyProgress = 0;
             level.destroyBlockProgress(breakerId, breakingPos, -1);

@@ -1,4 +1,4 @@
-// 1.21.1	2025-03-24T16:51:26.6898796	Tags for minecraft:block mod id bedrockores
+// 1.21.1	2025-08-14T00:34:29.9402086	Tags for minecraft:block mod id bedrockores
 1bec96a556b1541b370725968c0915ba748f9996 data/bedrockores/tags/block/bedrock_ores.json
 aa41a85947bf80eec5d408cbe35e2e26bf719c15 data/c/tags/block/ores/coal.json
 b7587ed8e6e3db460675a766b01e300f95cc85ff data/c/tags/block/ores/copper.json
@@ -12,4 +12,3 @@ b7587ed8e6e3db460675a766b01e300f95cc85ff data/c/tags/block/ores/copper.json
 f16ae8fd607a6dba788212ebeba718ca3d8b7199 data/c/tags/block/ores/redstone.json
 a7fd45ac4081a28836937fddd7de2ed7d4dcc387 data/c/tags/block/relocation_not_supported.json
 a7fd45ac4081a28836937fddd7de2ed7d4dcc387 data/minecraft/tags/block/mineable/pickaxe.json
-a7fd45ac4081a28836937fddd7de2ed7d4dcc387 data/neoforge/tags/block/needs_netherite_tool.json

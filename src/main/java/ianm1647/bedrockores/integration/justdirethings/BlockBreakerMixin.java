@@ -14,12 +14,13 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(BlockBreakerT1BE.class)
 public abstract class BlockBreakerMixin {
-    @Inject(method = "mineBlock", at = @At("HEAD"))
+
+    @Inject(method = "mineBlock", at = @At(value = "HEAD"))
     public void mineBedrockOre(BlockPos pos, ItemStack tool, FakePlayer player, CallbackInfoReturnable<Boolean> cir) {
         Level level = player.level();
         BlockState state = level.getBlockState(pos);
         if (state.getBlock() instanceof BedrockOreBlock) {
-            cir.cancel();
+            cir.setReturnValue(false);
         }
     }
 }
