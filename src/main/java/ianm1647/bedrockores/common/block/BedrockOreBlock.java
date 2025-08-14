@@ -79,13 +79,15 @@ public class BedrockOreBlock extends Block {
                 } else if (state.is(ModBlocks.EMPTY_BEDROCK_ORE.get())) {
                     level.setBlock(pos, Blocks.BEDROCK.defaultBlockState(), 1);
                 }
+            } else {
+                level.setBlock(pos, this.defaultBlockState(), 1);
             }
-            level.setBlock(pos, this.defaultBlockState(), 1);
             player.awardStat(Stats.BLOCK_MINED.get(this));
             player.causeFoodExhaustion(0.01F);
             dropResources(state, level, pos.above(), blockEntity, player, tool);
+        } else {
+            level.setBlock(pos, this.defaultBlockState(), 1);
         }
-        level.setBlock(pos, this.defaultBlockState(), 1);
     }
 
     public boolean hasSilkTouch(ItemStack stack) {
